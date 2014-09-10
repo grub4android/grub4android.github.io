@@ -267,15 +267,24 @@ img {
 Full-Width Styles
 *******************************************************************************/
 
+#logo {
+  background: url('../skin/G4A_title_header_light.png') transparent no-repeat center center;
+  width: 1080px;
+  height: 192px;
+  position: relative;
+  margin: 0 auto;
+}
+
 .outer {
   width: 100%;
 }
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 1080px;
   padding: 20px 10px;
   margin: 0 auto;
+  height: 192px;
 }
 
 #forkme_banner {
@@ -303,7 +312,11 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 0;
+}
+
+#header_wrap h1, #header_wrap h2 {
+  text-indent: -9999px;
 }
 
 #project_title {
